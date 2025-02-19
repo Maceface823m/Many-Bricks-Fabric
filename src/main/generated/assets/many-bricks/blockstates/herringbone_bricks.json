@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "many-bricks:block/herringbone_bricks"
+    }
+  }
+}

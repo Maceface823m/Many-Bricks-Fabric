@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "many-bricks:block/soldier_course_bricks"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "values": [
+    "many-bricks:brick_tiles",
+    "many-bricks:english_bond_bricks",
+    "many-bricks:flemmish_bond_bricks",
+    "many-bricks:stacked_bond_bricks",
+    "many-bricks:soldier_course_bricks",
+    "many-bricks:soldier_topped_stacked_bond_bricks",
+    "many-bricks:herringbone_bricks",
+    "many-bricks:double_basketweave_bricks"
+  ]
+}

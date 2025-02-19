@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "many-bricks:block/soldier_topped_stacked_bond_bricks"
+  }
+}
