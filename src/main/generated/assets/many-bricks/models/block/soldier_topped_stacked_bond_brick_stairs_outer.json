@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "many-bricks:block/soldier_topped_stacked_bond_bricks",
+    "side": "many-bricks:block/soldier_topped_stacked_bond_bricks",
+    "top": "many-bricks:block/soldier_topped_stacked_bond_bricks"
+  }
+}

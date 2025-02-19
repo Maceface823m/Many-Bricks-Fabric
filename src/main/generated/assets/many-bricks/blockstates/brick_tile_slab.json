@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "many-bricks:block/brick_tile_slab"
+    },
+    "type=double": {
+      "model": "many-bricks:block/brick_tiles"
+    },
+    "type=top": {
+      "model": "many-bricks:block/brick_tile_slab_top"
+    }
+  }
+}

@@ -24,6 +24,15 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.SOLDIER_COURSE_BRICKS)
                 .add(ModBlocks.SOLDIER_TOPPED_STACKED_BOND_BRICKS)
                 .add(ModBlocks.HERRINGBONE_BRICKS)
-                .add(ModBlocks.DOUBLE_BASKETWEAVE_BRICKS);
+                .add(ModBlocks.DOUBLE_BASKETWEAVE_BRICKS)
+                .add(ModBlocks.BRICK_TILE_STAIRS)
+                .add(ModBlocks.DOUBLE_BASKETWEAVE_BRICK_STAIRS)
+                .add(ModBlocks.ENGLISH_BOND_BRICK_STAIRS)
+                .add(ModBlocks.HERRINGBONE_BRICK_STAIRS)
+                .add(ModBlocks.FLEMMISH_BOND_BRICK_STAIRS)
+                .add(ModBlocks.SOLDIER_COURSE_BRICK_STAIRS)
+                .add(ModBlocks.STACKED_BOND_BRICK_STAIRS)
+                .add(ModBlocks.SOLDIER_TOPPED_STACKED_BOND_BRICK_STAIRS);
+
     }
 }

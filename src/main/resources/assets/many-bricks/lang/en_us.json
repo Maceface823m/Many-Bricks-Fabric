@@ -1,10 +1,28 @@
 {
-  "block.many_bricks.brick_tiles": "Brick Tiles",
-  "block.many_bricks.": "Brick Tiles",
-  "block.many_bricks.": "Brick Tiles",
-  "block.many_bricks.": "Brick Tiles",
-  "block.many_bricks.": "Brick Tiles",
-  "block.many_bricks.": "Brick Tiles",
-  "block.many_bricks.": "Brick Tiles",
-  "block.many_bricks.": "Brick Tiles"
+  "block.many-bricks.brick_tiles": "Brick Tiles",
+  "block.many-bricks.double_basketweave_bricks": "Double Basketweave Bricks",
+  "block.many-bricks.english_bond_bricks": "English Bond Bricks",
+  "block.many-bricks.flemmish_bond_bricks": "Flemmish Bond Bricks",
+  "block.many-bricks.herringbone_bricks": "Herringbone Bricks",
+  "block.many-bricks.soldier_course_bricks": "Soldier Course Bricks",
+  "block.many-bricks.soldier_topped_stacked_bond_bricks": "Soldier Topped Stacked Bond Bricks",
+  "block.many-bricks.stacked_bond_bricks": "Stacked Bond Bricks",
+
+  "block.many-bricks.brick_tile_stairs": "Brick Tile Stairs",
+  "block.many-bricks.double_basketweave_brick_stairs": "Double Basketweave Brick Stairs",
+  "block.many-bricks.english_bond_brick_stairs": "English Bond  Stairs",
+  "block.many-bricks.flemmish_bond_brick_stairs": "Flemmish Bond Bricks Stairs",
+  "block.many-bricks.herringbone_brick_stairs": "Herringbone Brick Stairs",
+  "block.many-bricks.soldier_course_brick_stairs": "Soldier Course Brick Stairs",
+  "block.many-bricks.soldier_topped_stacked_bond_brick_stairs": "Soldier Topped Stacked Bond Brick Stairs",
+  "block.many-bricks.stacked_bond_brick_stairs": "Stacked Bond  Stairs",
+
+  "block.many-bricks.brick_tile_slab": "Brick Tile Slab",
+  "block.many-bricks._slab": "Double Basketweave Brick Slab",
+  "block.many-bricks.english_bond_brick_slab": "English Bond Brick Slab",
+  "block.many-bricks.flemmish_bond_brick_slab": "Flemmish Bond Brick Slab",
+  "block.many-bricks.herringbone_brick_slab": "Herringbone Brick Slab",
+  "block.many-bricks.soldier_course_brick_slab": "Soldier Course Brick Slab",
+  "block.many-bricks.soldier_topped_stacked_bond_brick_slab": "Soldier Topped Stacked Bond Brick Slab",
+  "block.many-bricks.stacked_bond_brick_slab": "Stacked Bond Brick Slab"
 }

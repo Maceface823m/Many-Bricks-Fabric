@@ -4,6 +4,8 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.maceface.manybricks.ManyBricks;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.SlabBlock;
+import net.minecraft.block.StairsBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -47,6 +49,65 @@ public class ModBlocks {
                     .requiresTool().sounds(BlockSoundGroup.STONE)));
 
 
+    public static final Block BRICK_TILE_STAIRS = registerBlock("brick_tile_stairs",
+            new StairsBlock(ModBlocks.BRICK_TILES.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2f).requiresTool()));
+
+    public static final Block DOUBLE_BASKETWEAVE_BRICK_STAIRS = registerBlock("double_basketweave_brick_stairs",
+            new StairsBlock(ModBlocks.DOUBLE_BASKETWEAVE_BRICKS.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block ENGLISH_BOND_BRICK_STAIRS = registerBlock("english_bond_brick_stairs",
+            new StairsBlock(ModBlocks.ENGLISH_BOND_BRICKS.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block FLEMMISH_BOND_BRICK_STAIRS = registerBlock("flemmish_bond_brick_stairs",
+            new StairsBlock(ModBlocks.FLEMMISH_BOND_BRICKS.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block HERRINGBONE_BRICK_STAIRS = registerBlock("herringbone_brick_stairs",
+            new StairsBlock(ModBlocks.HERRINGBONE_BRICKS.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block SOLDIER_COURSE_BRICK_STAIRS = registerBlock("soldier_course_brick_stairs",
+            new StairsBlock(ModBlocks.SOLDIER_COURSE_BRICKS.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block SOLDIER_TOPPED_STACKED_BOND_BRICK_STAIRS = registerBlock("soldier_topped_stacked_bond_brick_stairs",
+            new StairsBlock(ModBlocks.SOLDIER_TOPPED_STACKED_BOND_BRICKS.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block STACKED_BOND_BRICK_STAIRS = registerBlock("stacked_bond_brick_stairs",
+            new StairsBlock(ModBlocks.STACKED_BOND_BRICKS.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+
+
+    public static final Block BRICK_TILE_SLAB = registerBlock("brick_tile_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+
+    public static final Block DOUBLE_BASKETWEAVE_BRICK_SLAB = registerBlock("double_basketweave_brick_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block ENGLISH_BOND_BRICK_SLAB = registerBlock("english_bond_brick_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block FLEMMISH_BOND_BRICK_SLAB = registerBlock("flemmish_bond_brick_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block HERRINGBONE_BRICK_SLAB = registerBlock("herringbone_brick_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block SOLDIER_COURSE_BRICK_SLAB = registerBlock("soldier_course_brick_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block SOLDIER_TOPPED_STACKED_BOND_BRICK_SLAB = registerBlock("soldier_topped_stacked_bond_brick_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block STACKED_BOND_BRICK_SLAB = registerBlock("stacked_bond_brick_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+
 
 
     private static Block registerBlock(String name, Block block) {
@@ -72,6 +133,26 @@ public class ModBlocks {
             entries.add(ModBlocks.SOLDIER_COURSE_BRICKS);
             entries.add(ModBlocks.STACKED_BOND_BRICKS);
             entries.add(ModBlocks.SOLDIER_TOPPED_STACKED_BOND_BRICKS);
+
+            entries.add(ModBlocks.BRICK_TILE_STAIRS);
+            entries.add(ModBlocks.DOUBLE_BASKETWEAVE_BRICK_STAIRS);
+            entries.add(ModBlocks.ENGLISH_BOND_BRICK_STAIRS);
+            entries.add(ModBlocks.HERRINGBONE_BRICK_STAIRS);
+            entries.add(ModBlocks.FLEMMISH_BOND_BRICK_STAIRS);
+            entries.add(ModBlocks.SOLDIER_COURSE_BRICK_STAIRS);
+            entries.add(ModBlocks.STACKED_BOND_BRICK_STAIRS);
+            entries.add(ModBlocks.SOLDIER_TOPPED_STACKED_BOND_BRICK_STAIRS);
+
+            entries.add(ModBlocks.BRICK_TILE_SLAB);
+            entries.add(ModBlocks.DOUBLE_BASKETWEAVE_BRICK_SLAB);
+            entries.add(ModBlocks.ENGLISH_BOND_BRICK_SLAB);
+            entries.add(ModBlocks.HERRINGBONE_BRICK_SLAB);
+            entries.add(ModBlocks.FLEMMISH_BOND_BRICK_SLAB);
+            entries.add(ModBlocks.SOLDIER_COURSE_BRICK_SLAB);
+            entries.add(ModBlocks.STACKED_BOND_BRICK_SLAB);
+            entries.add(ModBlocks.SOLDIER_TOPPED_STACKED_BOND_BRICK_SLAB);
+
+
         });
 
     }

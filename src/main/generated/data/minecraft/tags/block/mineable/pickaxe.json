@@ -7,6 +7,14 @@
     "many-bricks:soldier_course_bricks",
     "many-bricks:soldier_topped_stacked_bond_bricks",
     "many-bricks:herringbone_bricks",
-    "many-bricks:double_basketweave_bricks"
+    "many-bricks:double_basketweave_bricks",
+    "many-bricks:brick_tile_stairs",
+    "many-bricks:double_basketweave_brick_stairs",
+    "many-bricks:english_bond_brick_stairs",
+    "many-bricks:herringbone_brick_stairs",
+    "many-bricks:flemmish_bond_brick_stairs",
+    "many-bricks:soldier_course_brick_stairs",
+    "many-bricks:stacked_bond_brick_stairs",
+    "many-bricks:soldier_topped_stacked_bond_brick_stairs"
   ]
 }
