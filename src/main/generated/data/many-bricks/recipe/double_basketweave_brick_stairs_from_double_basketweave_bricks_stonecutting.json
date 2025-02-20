@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "many-bricks:double_basketweave_bricks"
+  },
+  "result": {
+    "count": 1,
+    "id": "many-bricks:double_basketweave_brick_stairs"
+  }
+}

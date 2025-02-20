@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "many-bricks:soldier_course_bricks"
+  },
+  "result": {
+    "count": 1,
+    "id": "many-bricks:soldier_course_brick_stairs"
+  }
+}

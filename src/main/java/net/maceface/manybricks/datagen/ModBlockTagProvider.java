@@ -25,6 +25,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.SOLDIER_TOPPED_STACKED_BOND_BRICKS)
                 .add(ModBlocks.HERRINGBONE_BRICKS)
                 .add(ModBlocks.DOUBLE_BASKETWEAVE_BRICKS)
+
                 .add(ModBlocks.BRICK_TILE_STAIRS)
                 .add(ModBlocks.DOUBLE_BASKETWEAVE_BRICK_STAIRS)
                 .add(ModBlocks.ENGLISH_BOND_BRICK_STAIRS)
@@ -32,7 +33,28 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.FLEMMISH_BOND_BRICK_STAIRS)
                 .add(ModBlocks.SOLDIER_COURSE_BRICK_STAIRS)
                 .add(ModBlocks.STACKED_BOND_BRICK_STAIRS)
-                .add(ModBlocks.SOLDIER_TOPPED_STACKED_BOND_BRICK_STAIRS);
+                .add(ModBlocks.SOLDIER_TOPPED_STACKED_BOND_BRICK_STAIRS)
+
+                .add(ModBlocks.BRICK_TILE_WALL)
+                .add(ModBlocks.DOUBLE_BASKETWEAVE_BRICK_WALL)
+                .add(ModBlocks.ENGLISH_BOND_BRICK_WALL)
+                .add(ModBlocks.HERRINGBONE_BRICK_WALL)
+                .add(ModBlocks.FLEMMISH_BOND_BRICK_WALL)
+                .add(ModBlocks.SOLDIER_COURSE_BRICK_WALL)
+                .add(ModBlocks.STACKED_BOND_BRICK_WALL)
+                .add(ModBlocks.SOLDIER_TOPPED_STACKED_BOND_BRICK_WALL);
+
+
+        getOrCreateTagBuilder(BlockTags.WALLS)
+                .add(ModBlocks.BRICK_TILE_WALL)
+                .add(ModBlocks.DOUBLE_BASKETWEAVE_BRICK_WALL)
+                .add(ModBlocks.ENGLISH_BOND_BRICK_WALL)
+                .add(ModBlocks.HERRINGBONE_BRICK_WALL)
+                .add(ModBlocks.FLEMMISH_BOND_BRICK_WALL)
+                .add(ModBlocks.SOLDIER_COURSE_BRICK_WALL)
+                .add(ModBlocks.STACKED_BOND_BRICK_WALL)
+                .add(ModBlocks.SOLDIER_TOPPED_STACKED_BOND_BRICK_WALL);
+
 
     }
 }

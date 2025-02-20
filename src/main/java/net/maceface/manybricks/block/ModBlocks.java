@@ -2,10 +2,7 @@ package net.maceface.manybricks.block;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.maceface.manybricks.ManyBricks;
-import net.minecraft.block.AbstractBlock;
-import net.minecraft.block.Block;
-import net.minecraft.block.SlabBlock;
-import net.minecraft.block.StairsBlock;
+import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -109,6 +106,32 @@ public class ModBlocks {
 
 
 
+    public static final Block BRICK_TILE_WALL = registerBlock("brick_tile_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+
+    public static final Block ENGLISH_BOND_BRICK_WALL = registerBlock("english_bond_brick_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+
+    public static final Block FLEMMISH_BOND_BRICK_WALL = registerBlock("flemmish_bond_brick_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+
+    public static final Block DOUBLE_BASKETWEAVE_BRICK_WALL = registerBlock("double_basketweave_brick_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+
+    public static final Block HERRINGBONE_BRICK_WALL = registerBlock("herringbone_brick_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+
+    public static final Block SOLDIER_COURSE_BRICK_WALL = registerBlock("soldier_course_brick_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+
+    public static final Block STACKED_BOND_BRICK_WALL = registerBlock("stacked_bond_brick_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+
+    public static final Block SOLDIER_TOPPED_STACKED_BOND_BRICK_WALL = registerBlock("soldier_topped_stacked_bond_brick_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+
+
+
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
@@ -151,6 +174,16 @@ public class ModBlocks {
             entries.add(ModBlocks.SOLDIER_COURSE_BRICK_SLAB);
             entries.add(ModBlocks.STACKED_BOND_BRICK_SLAB);
             entries.add(ModBlocks.SOLDIER_TOPPED_STACKED_BOND_BRICK_SLAB);
+
+            entries.add(ModBlocks.BRICK_TILE_WALL);
+            entries.add(ModBlocks.DOUBLE_BASKETWEAVE_BRICK_WALL);
+            entries.add(ModBlocks.ENGLISH_BOND_BRICK_WALL);
+            entries.add(ModBlocks.HERRINGBONE_BRICK_WALL);
+            entries.add(ModBlocks.FLEMMISH_BOND_BRICK_WALL);
+            entries.add(ModBlocks.SOLDIER_COURSE_BRICK_WALL);
+            entries.add(ModBlocks.STACKED_BOND_BRICK_WALL);
+            entries.add(ModBlocks.SOLDIER_TOPPED_STACKED_BOND_BRICK_WALL);
+
 
 
         });

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_flemmish_bond_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "many-bricks:flemmish_bond_bricks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:flemmish_bond_brick_wall_from_flemmish_bond_bricks_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_flemmish_bond_bricks"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:flemmish_bond_brick_wall_from_flemmish_bond_bricks_stonecutting"
+    ]
+  }
+}

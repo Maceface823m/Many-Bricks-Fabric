@@ -24,5 +24,14 @@
   "block.many-bricks.herringbone_brick_slab": "Herringbone Brick Slab",
   "block.many-bricks.soldier_course_brick_slab": "Soldier Course Brick Slab",
   "block.many-bricks.soldier_topped_stacked_bond_brick_slab": "Soldier Topped Stacked Bond Brick Slab",
-  "block.many-bricks.stacked_bond_brick_slab": "Stacked Bond Brick Slab"
+  "block.many-bricks.stacked_bond_brick_slab": "Stacked Bond Brick Slab",
+
+  "block.many-bricks.brick_tile_wall": "Brick Tile Wall",
+  "block.many-bricks.double_basketweave_brick_wall": "Double Basketweave Brick Wall",
+  "block.many-bricks.english_bond_brick_wall": "English Bond Brick Wall",
+  "block.many-bricks.flemmish_bond_brick_wall": "Flemmish Bond Brick Wall",
+  "block.many-bricks.herringbone_brick_wall": "Herringbone Brick Wall",
+  "block.many-bricks.soldier_course_brick_wall": "Soldier Course Brick Wall",
+  "block.many-bricks.soldier_topped_stacked_bond_brick_wall": "Soldier Topped Stacked Bond Brick Wall",
+  "block.many-bricks.stacked_bond_brick_wall": "Stacked Bond Brick Wall"
 }

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_english_bond_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "many-bricks:english_bond_bricks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:english_bond_brick_wall_from_english_bond_bricks_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_english_bond_bricks"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:english_bond_brick_wall_from_english_bond_bricks_stonecutting"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_brick_tiles": {
+      "conditions": {
+        "items": [
+          {
+            "items": "many-bricks:brick_tiles"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:bricks_from_brick_tiles_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_brick_tiles"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:bricks_from_brick_tiles_stonecutting"
+    ]
+  }
+}

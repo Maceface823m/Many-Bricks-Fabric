@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:bricks"
+  },
+  "result": {
+    "count": 1,
+    "id": "many-bricks:soldier_topped_stacked_bond_bricks"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "values": [
+    "many-bricks:brick_tile_wall",
+    "many-bricks:double_basketweave_brick_wall",
+    "many-bricks:english_bond_brick_wall",
+    "many-bricks:herringbone_brick_wall",
+    "many-bricks:flemmish_bond_brick_wall",
+    "many-bricks:soldier_course_brick_wall",
+    "many-bricks:stacked_bond_brick_wall",
+    "many-bricks:soldier_topped_stacked_bond_brick_wall"
+  ]
+}

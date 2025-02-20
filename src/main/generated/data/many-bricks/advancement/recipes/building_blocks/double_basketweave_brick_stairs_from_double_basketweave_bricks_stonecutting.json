@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_double_basketweave_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "many-bricks:double_basketweave_bricks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:double_basketweave_brick_stairs_from_double_basketweave_bricks_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_double_basketweave_bricks"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:double_basketweave_brick_stairs_from_double_basketweave_bricks_stonecutting"
+    ]
+  }
+}

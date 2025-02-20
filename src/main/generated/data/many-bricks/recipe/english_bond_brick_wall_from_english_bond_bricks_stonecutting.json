@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "many-bricks:english_bond_bricks"
+  },
+  "result": {
+    "count": 1,
+    "id": "many-bricks:english_bond_brick_wall"
+  }
+}
