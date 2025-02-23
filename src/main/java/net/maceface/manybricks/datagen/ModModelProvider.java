@@ -42,13 +42,13 @@ public class ModModelProvider extends FabricModelProvider {
         soldierToppedStackedBondBricksPool.slab(ModBlocks.SOLDIER_TOPPED_STACKED_BOND_BRICK_SLAB);
 
         brickTilesPool.wall(ModBlocks.BRICK_TILE_WALL);
-        brickTilesPool.wall(ModBlocks.ENGLISH_BOND_BRICK_WALL);
-        brickTilesPool.wall(ModBlocks.FLEMMISH_BOND_BRICK_WALL);
-        brickTilesPool.wall(ModBlocks.HERRINGBONE_BRICK_WALL);
-        brickTilesPool.wall(ModBlocks.DOUBLE_BASKETWEAVE_BRICK_WALL);
-        brickTilesPool.wall(ModBlocks.STACKED_BOND_BRICK_WALL);
-        brickTilesPool.wall(ModBlocks.SOLDIER_COURSE_BRICK_WALL);
-        brickTilesPool.wall(ModBlocks.SOLDIER_TOPPED_STACKED_BOND_BRICK_WALL);
+        englishBondBricksPool.wall(ModBlocks.ENGLISH_BOND_BRICK_WALL);
+        flemmishBondBricksPool.wall(ModBlocks.FLEMMISH_BOND_BRICK_WALL);
+        herringboneBricksPool.wall(ModBlocks.HERRINGBONE_BRICK_WALL);
+        doubleBasketweaveBricksPool.wall(ModBlocks.DOUBLE_BASKETWEAVE_BRICK_WALL);
+        stackedBondBricksPool.wall(ModBlocks.STACKED_BOND_BRICK_WALL);
+        soldierCourseBricksPool.wall(ModBlocks.SOLDIER_COURSE_BRICK_WALL);
+        soldierToppedStackedBondBricksPool.wall(ModBlocks.SOLDIER_TOPPED_STACKED_BOND_BRICK_WALL);
     }
 
     @Override
